@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Bonjour le monde!</h1>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.box:nth-child(odd) {
+  background-color: #88c1d0;
+}
+
+.box:nth-child(even) {
+  background-color: #ffca4b;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box:nth-child(odd) {
+  background-color: #88c1d0;
+}
+
+.box:nth-child(even) {
+  background-color: #ffca4b;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="box">Ceci est la boîte 1</div>
+  <div class="box">Ceci est la boîte 2</div>
+  <div class="box">Ceci est la boîte 3</div>
+  <div class="box">Ceci est la boîte 4</div>
+</div>
+
+</body>
+</html>

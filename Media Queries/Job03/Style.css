@@ -1,0 +1,74 @@
+section {
+    background-color: #88c1d0;
+}
+
+@media (min-width: 1680px) and (max-width: 1920px) {
+    section {
+        background-color: #ffca4b;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1680px) {
+    section {
+        background-color: #275fa0;
+    }
+}
+
+@media (max-width: 1280px) {
+    section {
+        background-color: #ffffff;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    overflow-x: ;
+    overflow-y: ;
+}
+header, footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+<style>
+                .container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+                .box {
+                    width: 30%;
+                    margin-bottom: 20px;
+                    background-color: grey;
+                    height: 200px;
+                    border: 1px solid white;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 20px;
+                    box-sizing: border-box;
+                }
+                .mesImages {
+                    width: 1200px;
+                    height: 802px;
+                  }
+                  

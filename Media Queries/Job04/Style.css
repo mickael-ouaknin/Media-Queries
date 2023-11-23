@@ -1,0 +1,21 @@
+#navbar {
+    display: flex;
+}
+
+#navbar a {
+    margin-right: 10px;
+}
+
+#hamburger {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    #navbar {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+    }
+}
